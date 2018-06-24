@@ -1,0 +1,160 @@
+body{
+   background-color: white;
+   color: black;
+   font-size:100%;
+}
+
+h1{
+   text-align: center;
+   font-family: Sunflower, sans-serif;
+   font-size: 600%;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 20px;
+   font-style: normal;
+   font-weight: bold;
+   background-color: transparent;
+   width: auto;
+   color: rgb(197,232,237);
+   text-shadow: 6px 6px black;
+   position: relative;
+}
+
+
+h2{
+   text-align: center;
+   font-family: Arial, Sunflower , Raleway, sans-serif;
+   margin-top: -2em;
+   font-size: 1.7em;
+   text-shadow: 2px 2px black;
+   color: orange;
+   position: relative;
+   bottom: 10px;
+}
+
+h3{
+   color: orange;
+   font-size: 5em;
+   font-family: arial, fantasy, sans-serif;
+   text-shadow: 4px 5px black;
+   padding-top: 20px;
+   display: inline; 
+   
+}
+
+header{
+   background-color: #00b8ff;
+   margin-top: 0px;
+  
+}
+
+.bigcont{
+   margin-bottom: 85%;
+}
+p{
+   font-family: arial, fantasy, sans-serif;
+   font-size: 5em;
+   margin: auto;
+   
+}
+
+img{
+   width: 96%;
+   margin: 1%;
+   transition: 0.5s;
+}
+
+img:hover{
+   cursor: pointer;
+   margin: 1%
+}
+
+.container{
+   width: 25%;
+   float: left;
+}
+.gallery{
+   margin: 0% 10%;
+
+}
+
+
+
+
+    
+button{
+
+   font-family: Roboto, sans-serif;
+   transition-duration: 0.5s;
+   background-color: transparent;
+   border: none;
+   font-size: 1.5em;
+   cursor: pointer;
+
+   
+}
+
+
+button:hover{
+   /*background-color: orange;
+   box-shadow: 5px 7px black;
+   border-radius:3px; */
+   
+   text-shadow: 3px 3px black;
+   color: orange /*rgb(197,232,237)*/;
+   
+}
+
+div.center{
+   
+   width: 100%;
+   margin:auto;
+  
+}
+.lista{
+   font-size: 4em;
+   font-family: roboto,fantasy, sans-serif;
+}
+
+.menu{
+   font-family: Roboto;
+   font-weight: bold;
+   color: black;
+   text-transform: none;
+}
+.max-width{
+   width: 1200px;
+   height:  310px;
+   display: block;
+
+}
+.centerbtn{
+   margin: auto;
+   width: 600px;
+   border: solid;
+   position: relative;
+   top: 30px;
+}
+ul{
+   font-family: arial;
+}
+footer{
+   background-color: #00b8ff;
+   height: 100px;
+   
+}
+textarea{
+   font-family: Arial;
+   font-size: 2em;
+   margin: auto;
+   width: 600px;
+}
+section{
+   margin: 0% 10%;
+}
+body > div:last-child {
+
+width : 200px!important;
+height: 50px!important;
+
+}
